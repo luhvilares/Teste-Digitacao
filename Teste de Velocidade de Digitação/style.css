@@ -6,7 +6,8 @@
 }
 
 body{
-    background-color: #AFCC9C;
+    background-image: url(../background.png);
+    width: 100%;
 }
 
 .container{
@@ -47,12 +48,17 @@ textarea{
 button{
     float: right;
     margin-top: 20px;
-    background-color: #AFCC9C;
+    background-color: #e2cc09;
     color:#f5fffa;
     border: none;
     padding: 10px 30px;
     border-radius: 5px;
     font-size: 18px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #e24e09;
 }
 
 .result{
@@ -76,9 +82,9 @@ button{
 }
 
 .success{
-    color: #44b267;
+    color: #0ea32e;
 }
 
 .fail{
-    color: #e81c4e;
+    color: #b30e0e;
 }
